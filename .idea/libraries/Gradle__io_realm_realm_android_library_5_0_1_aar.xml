@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: io.realm:realm-android-library:5.0.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/4049a71243c9e033cc141e8d89ab797e/transformed/jetified-realm-android-library-5.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/11aacb932027ebf3940b2b2244898798/transformed/jetified-realm-android-library-5.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/df98d7fba17bb61fbde6a1a7bd89d24b/transformed/jetified-realm-android-library-5.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/3cceea80f44e83b6b64b5c555550a9db/transformed/jetified-realm-android-library-5.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/c153655b1707e8b34aaf2bd27713a237/transformed/jetified-realm-android-library-5.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/c153655b1707e8b34aaf2bd27713a237/transformed/jetified-realm-android-library-5.0.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/c153655b1707e8b34aaf2bd27713a237/transformed/jetified-realm-android-library-5.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/5.0.1/ba5a0ccb64b5746eef96a4ddfac2af919a8f2c4/realm-android-library-5.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/5.0.1/681dd1ba83584d5a1924953ae8d5912333c2e198/realm-android-library-5.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

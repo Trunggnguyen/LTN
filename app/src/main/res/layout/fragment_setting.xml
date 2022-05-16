@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_temp"
+                android:layout_marginLeft="@dimen/dp20"
+                android:layout_marginTop="@dimen/dp20"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/sp16"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-150dp"
+                android:src="@drawable/ic_lcd" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp80"
+                android:layout_marginLeft="@dimen/dp40"
+                android:layout_marginRight="@dimen/dp40"
+                android:textSize="@dimen/sp14"
+                android:id="@+id/tv1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="#A5A6F6"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-80dp"
+                android:src="@drawable/ic_lcd" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp150"
+                android:layout_marginLeft="@dimen/dp40"
+                android:layout_marginRight="@dimen/dp40"
+                android:textSize="@dimen/sp14"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:id="@+id/tv2"
+                android:textColor="#A5A6F6"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/ic_lcd" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp220"
+                android:layout_marginLeft="@dimen/dp40"
+                android:layout_marginRight="@dimen/dp40"
+                android:textSize="@dimen/sp14"
+                android:maxLines="1"
+                android:id="@+id/tv3"
+                android:ellipsize="end"
+                android:textColor="#A5A6F6"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/dp270"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_humi"
+                    android:layout_marginLeft="@dimen/dp20"
+                    android:layout_marginTop="@dimen/dp20"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/sp16"
+                    android:textStyle="bold"
+
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-150dp"
+                    android:src="@drawable/ic_lcd" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp40"
+                    android:layout_marginTop="@dimen/dp80"
+                    android:layout_marginRight="@dimen/dp40"
+                    android:ellipsize="end"
+                    android:id="@+id/tv4"
+                    android:maxLines="1"
+                    android:textColor="#A5A6F6"
+                    android:textSize="@dimen/sp14" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-80dp"
+                    android:src="@drawable/ic_lcd" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/dp150"
+                    android:layout_marginLeft="@dimen/dp40"
+                    android:layout_marginRight="@dimen/dp40"
+                    android:textSize="@dimen/sp14"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:id="@+id/tv5"
+                    android:textColor="#A5A6F6"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-10dp"
+                    android:src="@drawable/ic_lcd" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/dp220"
+                    android:layout_marginLeft="@dimen/dp40"
+                    android:layout_marginRight="@dimen/dp40"
+                    android:textSize="@dimen/sp14"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:id="@+id/tv6"
+                    android:textColor="#A5A6F6"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</layout>

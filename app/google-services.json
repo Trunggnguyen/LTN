@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "871786046614",
+    "firebase_url": "https://demonhung-ff21f-default-rtdb.firebaseio.com",
+    "project_id": "demonhung-ff21f",
+    "storage_bucket": "demonhung-ff21f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871786046614:android:40dae246e0141c1198ceb7",
+        "android_client_info": {
+          "package_name": "com.ltn.exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871786046614-gjnuqr5tq2gnj1iqc1fdm3utdinrqjg0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ltn.exam",
+            "certificate_hash": "ac6472228522ffe131448555dbd51f0a5fe87cfc"
+          }
+        },
+        {
+          "client_id": "871786046614-1rq2tvf0t3dae3b5tsbn6j13kriqc5c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT-T-UoDNFs2scdDlvcnEdeY6o4yWixj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871786046614-1rq2tvf0t3dae3b5tsbn6j13kriqc5c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.esafirm.android-image-picker:rximagepicker:2.2.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/78fe1c5ad9ddd0527a9080c0769ffd2b/transformed/jetified-rximagepicker-2.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/6735c5966a8d1115a4cff8da8f89701b/transformed/jetified-rximagepicker-2.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/c372fca560d43d1913fb0731c4ea8a12/transformed/jetified-rximagepicker-2.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/fd046833e502a1239deeca4da7da2b14/transformed/jetified-rximagepicker-2.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/4d3ae432ee2382095ae7beeecfe830eb/transformed/jetified-rximagepicker-2.2.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/4d3ae432ee2382095ae7beeecfe830eb/transformed/jetified-rximagepicker-2.2.0/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/4d3ae432ee2382095ae7beeecfe830eb/transformed/jetified-rximagepicker-2.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.esafirm.android-image-picker/rximagepicker/2.2.0/1500127428279b0aab824e5d7bdb947a1fbead4e/rximagepicker-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

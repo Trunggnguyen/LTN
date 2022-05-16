@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp290"
+                        android:layout_marginTop="@dimen/dp10"
+                        android:src="@drawable/img_home" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/svn_gilroy_bold"
+                            android:text="--"
+                            android:id="@+id/nhietdo"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/dp40"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/dp18"
+                            android:layout_height="@dimen/dp18"
+                            android:layout_marginTop="@dimen/dp8">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="@dimen/dp18"
+                                android:layout_height="@dimen/dp18"
+                                android:layout_centerInParent="true"
+                                android:src="@color/colorBlack" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="@dimen/dp13"
+                                android:layout_height="@dimen/dp13"
+                                android:layout_centerInParent="true"
+                                android:src="@color/colorWhite" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/svn_gilroy_bold"
+                            android:text="C"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/dp40"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Humidity: --%"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/sp16"
+                    android:textStyle="bold"
+                    android:id="@+id/doam"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bt_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp100"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_off" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="-15dp"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="@dimen/dp160"
+                    android:layout_height="@dimen/dp160">
+
+                    <ImageView
+                        android:layout_width="@dimen/dp160"
+                        android:layout_height="@dimen/dp160"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_home1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Min:--"
+                            android:id="@+id/min"
+                            android:fontFamily="@font/bevietnampro_bold"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/dp11"
+                            android:textStyle="bold" />
+                        <RelativeLayout
+                            android:layout_width="@dimen/dp5"
+                            android:layout_marginTop="@dimen/dp3"
+                            android:layout_height="@dimen/dp5">
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="@dimen/dp5"
+                                android:layout_centerInParent="true"
+                                android:src="@color/colorBlack"
+                                android:layout_height="@dimen/dp5"/>
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="@dimen/dp3"
+                                android:layout_height="@dimen/dp3"
+                                android:layout_centerInParent="true"
+                                android:src="@color/colorWhite" />
+                        </RelativeLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="C"
+                            android:fontFamily="@font/bevietnampro_bold"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/dp11"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="@dimen/dp160"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="@dimen/dp160">
+
+                    <ImageView
+                        android:layout_width="@dimen/dp160"
+                        android:layout_height="@dimen/dp160"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_home2" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Max:--"
+                            android:id="@+id/max"
+                            android:fontFamily="@font/bevietnampro_bold"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/dp11"
+                            android:textStyle="bold" />
+                        <RelativeLayout
+                            android:layout_width="@dimen/dp5"
+                            android:layout_marginTop="@dimen/dp3"
+                            android:layout_height="@dimen/dp5">
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="@dimen/dp5"
+                                android:layout_centerInParent="true"
+                                android:src="@color/colorBlack"
+                                android:layout_height="@dimen/dp5"/>
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="@dimen/dp3"
+                                android:layout_height="@dimen/dp3"
+                                android:layout_centerInParent="true"
+                                android:src="@color/colorWhite" />
+                        </RelativeLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="C"
+                            android:fontFamily="@font/bevietnampro_bold"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/dp11"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/dp20"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/dp20"
+                android:background="@drawable/border_search_text"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/text1"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/dp20"
+                    android:layout_marginLeft="@dimen/dp20"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:fontFamily="@font/bevietnampro_bold"
+                    android:text="--"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/dp11"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/dp20"
+                    android:layout_marginLeft="@dimen/dp20"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:fontFamily="@font/bevietnampro_bold"
+                    android:layout_marginBottom="@dimen/dp20"
+                    android:text="--"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/dp11"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</layout>

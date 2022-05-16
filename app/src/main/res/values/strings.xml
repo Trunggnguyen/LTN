@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">Acom</string>
+    <string name="api_default_error">Có lỗi xảy ra</string>
+    <string name="api_retry_error">Vui lòng thử lại</string>
+    <string name="str_authe">Tài khoản không hợp lệ/Nhập sai mật khẩu</string>
+    <string name="text_all_has_error_please_try">Có lỗi xảy ra, vui lòng thử lại!</string>
+    <string name="text_all_has_error_timeout">Kết nối thất bại!</string>
+    <string name="text_all_has_error_network">Lỗi kết nối mạng!</string>
+
+    <string name="retry" translatable="false">Retry</string>
+    <string name="post_error" translatable="false">An error occurred while loading the posts</string>
+    <string name="str_forgot">Quên mật khẩu?</string>
+    <string name="str_or_social">Hoặc đăng nhập bang mạng xã hội</string>
+    <string name="str_has_account" translatable="false"><![CDATA[Bạn chưa có tài khoản. <font color=#57BE89>Đăng kí</font>]]></string>
+
+    <string name="facebook_app_id" translatable="false">833647787184360</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb833647787184360</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="str_video" translatable="false">Video</string>
+    <string name="str_news">Tin tức</string>
+    <string name="str_tab_home">Trang chủ</string>
+    <string name="str_tab_video" translatable="false">Video</string>
+    <string name="str_tab_story">Truyện</string>
+    <string name="str_tab_work">Nhiệm vụ</string>
+    <string name="str_personal">Tài khoản</string>
+    <string name="str_register">Đăng kí</string>
+    <string name="str_full_name">Họ và tên</string>
+    <string name="str_email" translatable="false">Email</string>
+    <string name="str_term" translatable="false"><![CDATA[Bạn đồng ý với <font color=#57BE89>các điều khoản</font> của chúng tôi]]></string>
+    <string name="str_relative" translatable="false">TIN TỨC LIÊN QUAN</string>
+    <string name="str_share">Chia sẻ</string>
+    <string name="app_text" translatable="false">This article is about the media franchise. For the title character, see Naruto Uzumaki. For the food, see narutomaki. For other uses, see Naruto (disambiguation). Naruto Naruto Uzumaki doing a hand sign while there is a scroll in his mouth. Cover of Naruto tankōbon volume 1, featuring Naruto Uzumaki NARUTO – ナルト Genre\tAdventure, fantasy, martial arts[1][2] Manga Naruto (pilot chapter) Written by\tMasashi Kishimoto Published by\tShueisha English publisher\t NA Viz Media Demographic\tShōnen Magazine\tAkamaru Jump English magazine\t NA Shonen Jump Published\tAugust 18, 1997 Manga Written by\tMasashi Kishimoto Published by\tShueisha English publisher\t AUS Madman Entertainment NA Viz Media UK Viz Media Demographic\tShōnen Imprint\tJump Comics Magazine\tWeekly Shōnen Jump English magazine\t NA Weekly Shonen Jump Shonen Jump (former) Original run\tSeptember 21, 1999 – November 10, 2014 Volumes\t72 (List of volumes) Anime television series Directed by\tHayato Date Written by\t Katsuyuki Sumisawa (#1–132) Junki Takegami (#133–220) Music by\t Musashi Project Toshio Masuda Studio\tPierrot Licensed by\t AUS Madman Entertainment NA Viz Media UK Manga Entertainment Original network\tTXN (TV Tokyo) English network\t AU Network Ten, ABC3 AUS Cartoon Network (Toonami) BI Jetix CA YTV, Télétoon NA Neon Alley PH ABS-CBN, Hero TV, Yey! SEA Animax Asia US Cartoon Network/Adult Swim (Toonami), Starz ZA SABC 2 Original run\tOctober 3, 2002 – February 8, 2007 Episodes\t220 (List of episodes) Anime television series Naruto: Shippuden Directed by\t Hayato Date Masaaki Kumagai (#261–280) Yasuaki Kurotsu[a] (#290–295)[b] Osamu Kobayashi (#480–483) Chiaki Kon (#484–488) Written by\t Junki Takegami (#1–289, #296–500) Satoru Nishizono (#1–53) Yasuyuki Suzuki (#54–71) Yasuaki Kurotsu (#290–295)[c] Masanao Akahoshi (#484–488)[d] Music by\t Yasuharu Takanashi -yaiba- Studio\tPierrot Licensed by\t AUS Madman Entertainment NA Viz Media UK Manga Entertainment Original network\tTXN (TV Tokyo) English network\t AUS Cartoon Network NA Neon Alley PH ABS-CBN, Hero TV, Yey! SEA Animax Asia US Disney XD, Adult Swim (Toonami) ZA SABC 2 Original run\tFebruary 15, 2007 – March 23, 2017 Episodes\t500 (List of episodes) Manga Naruto: The Seventh Hokage and the Scarlet Spring Boruto: Naruto Next Generations Films Ninja Clash in the Land of Snow Legend of the Stone of Gelel Guardians of the Crescent Moon Kingdom Naruto Shippuden the Movie Bonds The Will of Fire The Lost Tower Blood Prison Road to Ninja The Last Boruto Wikipe-tan face.svg Anime and manga portal Naruto (ナルト) is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks to gain recognition from his peers and also dreams of becoming the Hokage, the leader of his village. The story is in two parts, the first set in Naruto\'s pre-teen years, and the second in his teens. The series is based on two one-shot manga by Kishimoto: Karakuri (1995), which earned Kishimoto an honorable mention in Shueisha\'s monthly Hop Step Award the following year, and Naruto (1997).  Naruto was serialized in Shueisha\'s magazine, Weekly Shōnen Jump from 1999 to 2014, and released in tankōbon (book) form in 72 volumes. The manga was adapted into an anime television series produced by Pierrot and Aniplex, which broadcast 220 episodes in Japan from 2002 to 2007; the English adaptation of the series aired on Cartoon Network and YTV from 2005 to 2009. Naruto: Shippuden, a sequel to the original series, premiered in Japan in 2007, and ended in 2017, after 500 episodes. The English adaptation was broadcast on Disney XD from 2009 to 2011, airing the first 98 episodes, and then switched over to Adult Swim\'s Toonami programming block in January 2014, starting over from the first episode. The English adaptation is still airing weekly on Adult Swim to this day. Besides the anime series, Pierrot has developed eleven movies and twelve original video animations (OVAs). Other Naruto-related merchandise includes light novels, video games, and trading cards developed by several companies.  Viz Media licensed the manga and anime for North American production and serialized Naruto in their digital Weekly Shonen Jump magazine. The anime series began airing in the United States and Canada in 2005, and in the United Kingdom and Australia in 2006 and 2007, respectively. The films and most OVAs from the series were also released by Viz, with the first film premiering in movie theaters. Viz Media began streaming the two anime series on their streaming service Neon Alley in December 2012. The story of Naruto continues with Naruto\'s son, Boruto Uzumaki, in Boruto: Naruto Next Generations: Boruto wishes to create his own ninja way instead of following his father\'s.  Naruto is the fourth best-selling manga series in history, selling 250 million copies worldwide in 46 countries.[3] It has become one of Viz Media\'s best-selling manga series; their English translations of the volumes have appeared on USA Today and The New York Times bestseller list several times, and the seventh volume won a Quill Award in 2006. Reviewers praised the manga\'s character development, strong storylines, and well-executed fight scenes, though some felt the fight scenes slowed the story down. Critics noted that the manga, which has a coming-of-age theme, makes use of cultural references from Japanese mythology and Confucianism.   Contents 1\tPlot 1.1\tPart I 1.2\tPart II 2\tProduction 2.1\tDevelopment 2.2\tCharacters 2.3\tSetting 2.4\tConclusion 3\tMedia 3.1\tManga 3.1.1\tSpin-offs 3.2\tAnime 3.2.1\tPart I 3.2.2\tPart II 3.3\tOriginal video animations 3.4\tFilms 3.5\tNovels 3.6\tMusic 4\tMerchandise 4.1\tVideo games 4.2\tArt and guidebooks 4.3\tCollectible card game 5\tCommercial performance 6\tReception 6.1\tManga 6.2\tAnime 6.3\tThemes 7\tNaruto run 8\tNotes 9\tReferences 10\tExternal links Plot Part I See also: List of Naruto chapters (Part I) A powerful fox known as the Nine-Tails attacks Konoha, the hidden leaf village in the Land of Fire, one of the Five Great Shinobi Countries in the Ninja World. In response, the leader of Konoha, the Fourth Hokage, seals the fox inside the body of his newborn son, Naruto Uzumaki, making Naruto a host of the beast;[e] this costs Naruto\'s father his life, and the Third Hokage returns from retirement to become leader of Konoha again. Naruto is often ridiculed by the Konoha villagers for being the host of the Nine-Tails. Because of a decree made by the Third Hokage forbidding anyone to mention these events, Naruto knows nothing about the Nine-Tails until 12 years later, when Mizuki, a renegade ninja, reveals the truth to Naruto. Naruto then defeats Mizuki in combat, earning the respect of his teacher Iruka Umino.[f]</string>
+    <string name="str_introl_story">Giới thiệu</string>
+    <string name="str_comment">Bình luận</string>
+    <string name="str_relation">Đề xuất liên quan</string>
+    <string name="str_start_read" translatable="false">Bắt đầu đọc</string>
+    <string name="str_history" translatable="false">Lịch sử xem</string>
+    <string name="str_help" translatable="false">"Trợ giúp "</string>
+    <string name="str_exit">Đăng xuất</string>
+    <string name="str_search">Tìm kiếm</string>
+    <string name="str_report">Báo cáo</string>
+    <string name="str_empty">Không có dữ liệu</string>
+    <string name="msg_subscribed" translatable="false">msg_subscribed</string>
+    <string name="msg_subscribe_failed" translatable="false">msg_subscribe_failed</string>
+    <string name="server_client_id" translatable="false">784144847988-mr6067n9hph3k36rvnuikk3ukikrphrp.apps.googleusercontent.com</string>
+    <string name="str_login_full_name">Họ và tên</string>
+    <string name="str_book_rb_male">Nam</string>
+    <string name="str_book_rb_female">Nữ</string>
+    <string name="str_album_permission" translatable="false">Ứng dụng chưa được cấp quyền truy cập album</string>
+    <string name="str_gift" translatable="false">QÙA TẶNG LÍNH MỚI</string>
+    <string name="str_receive" translatable="false">Nhận thưởng</string>
+    <string name="str_receive1" translatable="false">Nhận</string>
+    <string name="let_welcome" translatable="false">Hãy nói \"xin chào\"</string>
+    <string name="image">Hình ảnh</string>
+    <string name="video" translatable="false">Video</string>
+    <string name="str_chat">Tin nhắn</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="str_phone_number">Số điện thoại</string>
+
+
+    ------------------------login------------------------------
+    <string name="str_login">Đăng nhập</string>
+    <string name="str_tel_num">Số điện thoại</string>
+    <string name="str_password">Mật khẩu</string>
+    <string name="str_forgot_password">Quên mật khẩu?</string>
+    <string name="str_sign_up_in_login">Đăng ký</string>
+    <string name="str_notice_error_login">Bạn phải nhập đủ các thông tin!</string>
+    <string name="str_notice_error_login2">Giá trị cập nhật các trường phải khác 0!</string>
+
+    ------------------------forgot_password------------------------------
+    <string name="str_title_forgot_password">Quên mật khẩu</string>
+    <string name="str_title_changer_password">Thay đổi mật khẩu</string>
+    <string name="str_notice_enter_phone_number">Nhập số điện thoại của bạn</string>
+    <string name="str_send_code">Gửi mã</string>
+    <string name="str_enter_new_password">Nhập mật khẩu mới</string>
+    <string name="str_enter_confirm_new_password">Xác nhận mật khẩu mới</string>
+    <string name="str_confirm_changer_password">Xác nhận</string>
+    <string name="str_confirm_compare_password">Mật khẩu chưa khớp!</string>
+    <string name="str_error_password">Mật khẩu tối thiểu 6 kí tự!</string>
+
+    ------------------------sign_up------------------------------
+    <string name="str_sign_up">Đăng ký</string>
+    <string name="str_name_login">Họ và tên</string>
+    <string name="str_phone">Số điện thoại</string>
+    <string name="str_birthday">Ngày sinh</string>
+    <string name="str_height">Chiều cao</string>
+    <string name="str_weight">Cân nặng</string>
+    <string name="str_sex">Giới tính</string>
+    <string name="str_not_has_avatar">Bạn chưa chọn ảnh đại diện!</string>
+    <string name="str_female">Nữ</string>
+    <string name="str_male">Nam</string>
+
+    ------------------------changer_password------------------------------
+    <string name="str_changer_password">Đổi mật khẩu</string>
+    <string name="str_old_password">Mật khẩu cũ</string>
+
+    ------------------------button------------------------------
+    <string name="str_continue">Tiếp tục</string>
+    <string name="str_confirm">Xác minh</string>
+    <string name="str_save">Lưu</string>
+
+    ------------------------dialog------------------------------
+    <string name="str_notice_logout">Bạn có muốn đăng xuất không ?</string>
+    <string name="str_notice_confirm_cancle_rate">Bạn có muốn tiếp tục đánh giá không ?</string>
+
+    ------------------------rate------------------------------
+    <string name="str_rate">Đánh giá</string>
+    <string name="str_next">Tiếp</string>
+    <string name="str_notice_infrastructure">Chất lượng cơ sở vật chất phòng tập ?</string>
+    <string name="str_notice_drink">Chất lượng đồ uống sau buổi tập ?</string>
+    <string name="str_notice_support">Chất lượng cơ sở vật chất phòng tập ?</string>
+    <string name="str_my_comment">Nhận xét của bạn</string>
+    <string name="str_enter_more_comment">Viết nhận xét tại đây</string>
+    <string name="str_bad" translatable="false">Bad</string>
+    <string name="str_ok" translatable="false">Okay</string>
+    <string name="str_good" translatable="false">Good</string>
+    <string name="str_great" translatable="false">Great</string>
+
+    ------------------------edit_info------------------------------
+    <string name="str_edit_info">Chỉnh sửa thông tin</string>
+    <string name="str_not_edit_phone">Bạn không được sửa số điện thoại!</string>
+
+    ------------------------menu------------------------------
+    <string name="menu_home">Home</string>
+    <string name="menu_wishlist">Wishlist</string>
+    <string name="menu_order">Order</string>
+    <string name="menu_account">Account</string>
+
+    ------------------------status------------------------------
+    <string name="str_complete">Hoàn thành</string>
+    <string name="str_not_complete">Chưa hoàn thành</string>
+    <string name="str_when">Lúc </string>
+
+
+    ------------------------set_target------------------------------
+    <string name="str_month">Tháng</string>
+    <string name="str_fat">kg mỡ</string>
+    <string name="str_set_target">Đặt mục tiêu</string>
+    <string name="str_chose_speed">Lựa chọc tốc độ tập luyện phù hợp với bạn</string>
+    <string name="str_slow">Chậm</string>
+    <string name="str_standard">Tiêu chuẩn</string>
+    <string name="str_fast">Nhanh</string>
+    <string name="str_version_exercise">Trình độ luyện tập</string>
+    <string name="str_beginner" translatable="false">Beginner</string>
+    <string name="str_pre_intermediate" translatable="false">Pre-intermediate</string>
+    <string name="str_intermediate" translatable="false">Intermediate</string>
+    <string name="str_advance" translatable="false">Advance</string>
+    <string name="str_expect" translatable="false">Expert</string>
+    <string name="str_repair">Sửa</string>
+
+    ------------------------choose_target------------------------------
+    <string name="str_chose_target">Chọn mục tiêu tập luyện</string>
+    <string name="str_notice_my_target">Chọn mục tiêu tập luyện của bạn chúng tôi sẽ đưa giáo án phù hợp cho bạn</string>
+    <string name="str_increase_weight">Tăng cân</string>
+    <string name="str_loss_weight">Giảm cân</string>
+    <string name="str_reduction">Tăng cân - Giảm mỡ</string>
+    <string name="str_target">Mục tiêu</string>
+
+    ------------------------otp------------------------------
+    <string name="str_not_has_otp">Bạn chưa nhập mã!</string>
+    <string name="str_enter_otp">Nhập mã OTP</string>
+    <string name="str_request_send_again">Yêu cầu gửi lại</string>
+    <string name="str_notice_dont_otp">Nếu bạn chưa nhận được mã OTP?</string>
+    <string name="str_notice_countdown_time_otp">Chúng tôi đã gửi một mã xác minh tới điện   thoại của bạn. Vui lòng chờ</string>
+    <string name="str_notice_dont_account">Nếu bạn chưa có tài khoản? </string>
+
+    ------------------------new_password------------------------------
+    <string name="str_new_password">Mật khẩu mới</string>
+    <string name="str_enter_old_password">Nhập lại mật khẩu</string>
+
+    ------------------------home------------------------------
+    <string name="str_home">Cá nhân</string>
+    <string name="str_now_weight">Cân nặng hiện tại (kg)</string>
+    <string name="str_training_speed">Tiến độ tập luyện</string>
+    <string name="str_my_exercise_package">Gói tập của tôi</string>
+    <string name="str_calories" translatable="false">Calories</string>
+    <string name="str_SMM" translatable="false">SMM</string>
+    <string name="str_BFM" translatable="false">BFM</string>
+    <string name="str_BMI" translatable="false">BMI</string>
+    <string name="str_BMR" translatable="false">BMR</string>
+    <string name="str_WHR" translatable="false">WHR</string>
+    <string name="str_VFL" translatable="false">VFL</string>
+    <string name="str_PBF" translatable="false">PBF</string>
+
+
+    ------------------------chart------------------------------
+    <string name="str_all_calo">Tổng lượng calo tiêu hao</string>
+    <string name="str_kcal" translatable="false">kcal</string>
+    <string name="str_day">Ngày</string>
+    <string name="str_week">Tuần</string>
+    <string name="str_year">Năm</string>
+
+    <string name="str_success">Xong</string>
+    <string name="str_two_point" translatable="false">:</string>
+
+    <string name="str_your_target">Mục tiêu của bạn</string>
+    <string name="str_notice_your_target">Chúc bạn hoàn thành mục tiêu tốt</string>
+    <string name="str_time_target">Thời gian</string>
+    <string name="str_num_calories_target">Khối lượng mỡ</string>
+    <string name="str_option_target">Trình độ luyện tập</string>
+    <string name="str_setting_notification">Cài đặt thông báo</string>
+    <string name="str_notification_calendar">Nhắc nhở lịch tập</string>
+    <string name="str_before_30_minute">Trước 30 phút</string>
+    <string name="str_notification_water">Nhắc nhở uống nước</string>
+    <string name="str_time_water">20 phút/ lần - 200ml/lần</string>
+    <string name="str_system_policy">Chính sách hệ thống</string>
+    <string name="str_profile">Cá nhân</string>
+    <string name="str_member">Thành viên:</string>
+    <string name="str_nutrition">Dinh dưỡng</string>
+    <string name="str_text_rate">Đánh giá chất lượng</string>
+    <string name="str_logout">Đăng xuất</string>
+    <string name="str_my_pack">Gói tập của tôi</string>
+
+    <string name="str_choose_height">Chọn chiều cao</string>
+    <string name="str_choose_weight">Chọn cân nặng</string>
+    <string name="str_menu">Danh mục</string>
+    <string name="str_title_notification">Thông báo</string>
+    <string name="str_title_chat">Quản trị viên</string>
+    <string name="str_title_book">Lịch tập</string>
+    <string name="str_example_chat" translatable="false">Aa</string>
+    <string name="str_no">Không</string>
+    <string name="str_yes">Có</string>
+    <string name="str_title_nuti">Dinh dưỡng</string>
+    <string name="str_choose_hour_exercise">Chọn giờ tập</string>
+    <string name="str_over_slot">Hết chỗ</string>
+    <string name="str_has_slot">Còn chỗ</string>
+    <string name="str_selected_slot">Đã chọn</string>
+    <string name="str_book">Đặt lịch</string>
+    <string name="str_title_history">Lịch sử</string>
+    <string name="str_time">Buổi</string>
+
+
+    <string name="str_toast_empty_pass">Vui lòng nhập mật khẩu!</string>
+    <string name="str_toast_empty_user">Vui lòng nhập tên tài khoản!</string>
+    <string name="str_toast_empty_address">Vui lòng nhập địa chỉ!</string>
+    <string name="str_toast_empty_tel">Vui lòng nhập số điện thoại!</string>
+    <string name="str_toast_empty_weight">Vui lòng nhập cân nặng!</string>
+    <string name="str_toast_empty_height">Vui lòng nhập chiều cao!</string>
+    <string name="str_toast_empty_name">Vui lòng nhập họ tên!</string>
+    <string name="str_toast_empty_email">Vui lòng nhập địa chỉ email!</string>
+    <string name="str_title_update_info">Cập nhật thông tin</string>
+    <string name="str_update">Cập nhật</string>
+    <string name="str_delete">Xóa</string>
+    <string name="str_no_data_body">Chưa có dữ liệu cơ thể dành cho bạn</string>
+    <string name="str_notice_notification">Chưa có dữ liệu thông báo!</string>
+    <string name="str_no_data"><![CDATA[Bạn chưa có dữ liệu về sức  khỏe . Hãy liên hệ hotline <u><font color=#C89234>‘0981 277 980’</font></u> để đặt lịch tập và theo dõi sức khỏe của mình .]]></string>
+    <string name="str_no_data_history">Chưa có dữ liệu lịch sử</string>
+
+    -------------description_session---------------
+    <string name="str_description_ssm">Chỉ số SMM</string>
+    <string name="str_description_bfm">Chỉ số BFM</string>
+    <string name="str_description_bmi">Chỉ số BMI</string>
+    <string name="str_description_pbf">Chỉ số PBF</string>
+    <string name="str_description_bmr">Chỉ số BMR</string>
+    <string name="str_description_whr">Chỉ số WHR</string>
+    <string name="str_description_vfl">Chỉ số VFL</string>
+
+    <string name="str_watting_data">(Không có dữ liệu)</string>
+
+    ------------------------admin------------------------------
+    <string name="str_body_admin">Body</string>
+    <string name="str_notification_admin">Thông báo</string>
+    <string name="str_message_admin">Tin nhắn</string>
+    <string name="str_add_data_admin">Thêm dữ liệu</string>
+    <string name="str_title_enter_data_admin">Nhập dữ liệu</string>
+    <string name="str_update_info_body">Cập nhật thông tin</string>
+    <string name="str_confirm_update_info_client">Bạn chưa lưu thông tin đã nhập. Bạn muốn đóng tab này ?</string>
+    <string name="str_message_default">Hãy nói \"Xin chào!\"</string>
+    <string name="str_no_data_nutrition">Chưa có dữ liệu dinh dưỡng dành cho bạn</string>
+    <string name="str_now">Hiện tại</string>
+    <string name="str_old_pack">Cũ hơn</string>
+    <string name="str_error_enter_notice">Nhận xét có tối đa 255 kí tự. Vui lòng nhập lại!</string>
+    <string name="str_error_choose_date">Ngày chọn không hợp lệ!</string>
+    <string name="str_error_dont_choose_date">Bạn chưa chọn lịch tập!</string>
+    <string name="str_error_choose_today">Không được sửa lịch ngày hôm nay, bạn phải sửa lịch trước 1 ngày!</string>
+
+    <string name="str_auto_confirm_otp">Tự động xác nhận mã OTP</string>
+    <string name="str_hint_edt_search">Tìm kiếm sản phẩm</string>
+    <string name="str_humi">Humidity status</string>
+    <string name="str_temp">Temperature status</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+
+
+</resources>
