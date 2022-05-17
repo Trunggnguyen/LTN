@@ -35,7 +35,7 @@
                 android:id="@+id/tv1"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textColor="#A5A6F6"
+                android:textColor="#4291BE"
                 android:layout_height="wrap_content"/>
 
             <ImageView
@@ -52,7 +52,7 @@
                 android:maxLines="1"
                 android:ellipsize="end"
                 android:id="@+id/tv2"
-                android:textColor="#A5A6F6"
+                android:textColor="#4291BE"
                 android:layout_height="wrap_content"/>
 
             <ImageView
@@ -69,7 +69,7 @@
                 android:maxLines="1"
                 android:id="@+id/tv3"
                 android:ellipsize="end"
-                android:textColor="#A5A6F6"
+                android:textColor="#4291BE"
                 android:layout_height="wrap_content"/>
 
             <RelativeLayout
@@ -105,7 +105,7 @@
                     android:ellipsize="end"
                     android:id="@+id/tv4"
                     android:maxLines="1"
-                    android:textColor="#A5A6F6"
+                    android:textColor="#4291BE"
                     android:textSize="@dimen/sp14" />
 
                 <ImageView
@@ -122,7 +122,7 @@
                     android:maxLines="1"
                     android:ellipsize="end"
                     android:id="@+id/tv5"
-                    android:textColor="#A5A6F6"
+                    android:textColor="#4291BE"
                     android:layout_height="wrap_content"/>
 
                 <ImageView
@@ -139,7 +139,7 @@
                     android:maxLines="1"
                     android:ellipsize="end"
                     android:id="@+id/tv6"
-                    android:textColor="#A5A6F6"
+                    android:textColor="#4291BE"
                     android:layout_height="wrap_content"/>
             </RelativeLayout>
         </RelativeLayout>

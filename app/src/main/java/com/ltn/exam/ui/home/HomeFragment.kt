@@ -1,7 +1,15 @@
 package com.ltn.exam.ui.home
 
 import android.annotation.SuppressLint
+import android.content.Context
+import android.os.Build
+import android.os.VibrationEffect
+import android.os.Vibrator
 import android.util.Log
+import android.view.ViewGroup
+import androidx.core.view.children
+import androidx.fragment.app.DialogFragment
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import ltn.exam.R
 import com.ltn.exam.base.BaseFragment
@@ -9,10 +17,13 @@ import com.ltn.exam.data.DataRequest
 import com.ltn.exam.data.DataResponse
 import ltn.exam.databinding.FragmentHomeBinding
 import com.ltn.exam.ui.main.MainViewModel
+import com.ltn.exam.utils.custom_view.Dialog_Status
+import com.ltn.exam.utils.custom_view.Dialog_Warning
 import com.ltn.exam.view_model.ViewModelFactory
 
-class HomeFragment : BaseFragment<MainViewModel, FragmentHomeBinding>() {
+class HomeFragment : BaseFragment<MainViewModel, FragmentHomeBinding>(), Dialog_Warning.GetClicknput {
     var isOn = false
+    var dislodging : Dialog_Warning ? = null
     override fun getContentLayout(): Int {
         return R.layout.fragment_home
     }
@@ -55,6 +66,19 @@ class HomeFragment : BaseFragment<MainViewModel, FragmentHomeBinding>() {
     override fun observerLiveData() {
         viewModel.getData {
             if (isOn){
+                val hasWindowFocus = activity?.supportFragmentManager!!.fragments.any { it is DialogFragment }
+                if (!hasWindowFocus){
+                    if(it.temp!!>= it.tempTheshold!!){
+                        vibratePhone()
+                        dislodging = Dialog_Warning(this,it.tempStr2!!)
+                        dislodging?.show(activity!!.supportFragmentManager, null)
+                    }
+                    if(it.humi!!>= it.humiTheshold!!){
+                        dislodging = Dialog_Warning(this,it.humiStr2!!)
+                        dislodging?.show(activity!!.supportFragmentManager, null)
+                        vibratePhone()
+                    }
+                }
                 binding.min.text = "Min: "+ it.tempMin
                 binding.max.text = "Max: "+ it.tempMax
 
@@ -90,6 +114,18 @@ class HomeFragment : BaseFragment<MainViewModel, FragmentHomeBinding>() {
                 binding.text2.text =  "--"
             }
         }
+
+    }
+    fun Fragment.vibratePhone() {
+        val vibrator = context?.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+        if (Build.VERSION.SDK_INT >= 26) {
+            vibrator.vibrate(VibrationEffect.createOneShot(200, VibrationEffect.DEFAULT_AMPLITUDE))
+        } else {
+            vibrator.vibrate(200)
+        }
+    }
+
+    override fun onGetClickInput(click: String, type: Int) {
 
     }
 
