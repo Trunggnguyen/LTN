@@ -10,5 +10,6 @@ class DataRequest (
     var tempMin : Int  ?= null,
     var tempStr1 : String  ?= null,
     var tempStr2 : String  ?= null,
-    var tempTheshold : Int  ?= null
+    var tempTheshold : Int  ?= null,
+    var isUsingLed : Boolean ?= false
     )

@@ -11,6 +11,7 @@ class DataResponse {
     var tempStr1 : String  ?= null
     var tempStr2 : String  ?= null
     var tempTheshold : Int  ?= null
+    var usingLed : Boolean? = null
     constructor()
 
 }

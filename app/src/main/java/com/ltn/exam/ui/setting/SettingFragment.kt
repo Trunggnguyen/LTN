@@ -1,20 +1,25 @@
 package com.ltn.exam.ui.setting
 
 import android.annotation.SuppressLint
+import android.content.DialogInterface
+import android.view.View
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
-import ltn.exam.R
 import com.ltn.exam.base.BaseFragment
 import com.ltn.exam.data.DataRequest
-import ltn.exam.databinding.FragmentSettingBinding
 import com.ltn.exam.ui.main.MainViewModel
 import com.ltn.exam.utils.custom_view.BottomSheetChooseHeight
 import com.ltn.exam.utils.custom_view.Dialog_Status
 import com.ltn.exam.view_model.ViewModelFactory
 import kotlinx.android.synthetic.main.fragment_setting.*
+import ltn.exam.R
+import ltn.exam.databinding.FragmentSettingBinding
+
 
 class SettingFragment : BaseFragment<MainViewModel, FragmentSettingBinding>() ,Dialog_Status.GetClicknput, BottomSheetChooseHeight.GetHeight{
     private var dislodging: Dialog_Status? = null
     private var dislodgingSelect: BottomSheetChooseHeight? = null
+    var isUsingLed : Boolean = false
     override fun getContentLayout(): Int {
         return R.layout.fragment_setting
     }
@@ -34,11 +39,11 @@ class SettingFragment : BaseFragment<MainViewModel, FragmentSettingBinding>() ,D
     override fun initView() {
 
         binding.tv1.setOnClickListener {
-            dislodging = Dialog_Status(this,1)
+            dislodging = Dialog_Status(this,1, tv1.text.toString())
             dislodging?.show(activity!!.supportFragmentManager, null)
         }
         binding.tv2.setOnClickListener {
-            dislodging = Dialog_Status(this,2)
+            dislodging = Dialog_Status(this,2, tv2.text.toString())
             dislodging?.show(activity!!.supportFragmentManager, null)
         }
         binding.tv3.setOnClickListener {
@@ -46,16 +51,20 @@ class SettingFragment : BaseFragment<MainViewModel, FragmentSettingBinding>() ,D
             dislodgingSelect?.show(activity!!.supportFragmentManager, null)
         }
         binding.tv4.setOnClickListener {
-            dislodging = Dialog_Status(this,4)
+            dislodging = Dialog_Status(this,4,tv4.text.toString())
             dislodging?.show(activity!!.supportFragmentManager, null)
         }
         binding.tv5.setOnClickListener {
-            dislodging = Dialog_Status(this,5)
+            dislodging = Dialog_Status(this,5,tv5.text.toString())
             dislodging?.show(activity!!.supportFragmentManager, null)
         }
         binding.tv6.setOnClickListener {
             dislodgingSelect = BottomSheetChooseHeight(this,humiM, 6)
             dislodgingSelect?.show(activity!!.supportFragmentManager, null)
+        }
+        binding.checkbox.setOnClickListener {
+                isUsingLed = !isUsingLed
+                saveData()
         }
     }
 
@@ -78,6 +87,10 @@ class SettingFragment : BaseFragment<MainViewModel, FragmentSettingBinding>() ,D
             tempMin = it.tempMin!!
             tempth = it.tempTheshold!!
             humiM = it.humiTheshold!!
+            if(isUsingLed != it.usingLed){
+                isUsingLed = it.usingLed!!
+                binding.checkbox.setChecked(isUsingLed)
+            }
         }
     }
 
@@ -114,7 +127,7 @@ class SettingFragment : BaseFragment<MainViewModel, FragmentSettingBinding>() ,D
         saveData()
     }
     fun saveData(){
-        viewModel.saveToFirebase(DataRequest(humi,tv4.text.toString(),tv5.text.toString(),humiM,temp,tempmax,tempMin, tv1.text.toString(),tv2.text.toString(),tempth))
+        viewModel.saveToFirebase(DataRequest(humi,tv4.text.toString().trim(),tv5.text.toString().trim(),humiM,temp,tempmax,tempMin, tv1.text.toString().trim(),tv2.text.toString().trim(),tempth, isUsingLed))
     }
 
 

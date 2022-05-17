@@ -7,9 +7,10 @@ import com.ltn.exam.base.BaseDialog
 import ltn.exam.R
 import ltn.exam.databinding.LayoutDialogInputBinding
 
-class Dialog_Status(getClickInput: GetClicknput, type: Int) : BaseDialog<LayoutDialogInputBinding>() {
+class Dialog_Status(getClickInput: GetClicknput, type: Int, text: String) : BaseDialog<LayoutDialogInputBinding>() {
     val getClickinput = getClickInput
     val type = type
+    val text = text
 
     override fun getLayoutResource(): Int {
         return R.layout.layout_dialog_input
@@ -19,6 +20,7 @@ class Dialog_Status(getClickInput: GetClicknput, type: Int) : BaseDialog<LayoutD
     }
 
     override fun setUp(view: View?) {
+        binding.tvInput.setText(text)
         when (type) {
             1 -> {
                 binding.tvTitle.text = binding.root.context.getString(R.string.str_temp)
